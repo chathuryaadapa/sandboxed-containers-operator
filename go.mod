@@ -12,7 +12,7 @@ require (
 	github.com/ghodss/yaml v1.0.1-0.20220118164431-d8423dcdf344
 	github.com/go-logr/logr v1.4.3
 	github.com/onsi/ginkgo/v2 v2.27.2
-	github.com/onsi/gomega v1.38.2
+	github.com/onsi/gomega v1.38.3
 	github.com/openshift/api v0.0.0-20251104141128-d13e8c65d30f
 	github.com/openshift/cloud-credential-operator v0.0.0-20251111201545-92207a875916
 	github.com/openshift/machine-config-operator v0.0.1-0.20250730172805-468599a9ae73

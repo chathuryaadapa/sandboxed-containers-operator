@@ -1,8 +1,6 @@
 module github.com/openshift/sandboxed-containers-operator
 
-go 1.24.0
-
-toolchain go1.24.6
+go 1.24.9
 
 require (
 	github.com/Masterminds/semver/v3 v3.4.0
@@ -130,7 +128,7 @@ require (
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/gnostic-models v0.7.0 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
-	github.com/google/pprof v0.0.0-20251114195745-4902fdda35c8 // indirect
+	github.com/google/pprof v0.0.0-20260106004452-d7df1bf2cac7 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect

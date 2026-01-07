@@ -31,7 +31,7 @@ update_config() {
     echo "Updating configuration: $config_file"
     
     # Backup config
-    chroot /host cp "$config_file" "${config_file}.backup-$(date +%s)"
+   # chroot /host cp "$config_file" "${config_file}.backup-$(date +%s)"
     
     # Update kernel if provided
 	chroot /host sed -i "s|^\(kernel[[:space:]]*=[[:space:]]*\)\".*\"|\1\"$kernel_path\"|g" "$config_file"
